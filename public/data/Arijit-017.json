@@ -1,0 +1,27 @@
+[{
+  "name": "Arijit Ghosh",
+  "location": "Haldia, West Bengal, India",
+  "bio": "Hello, my name is Arijit Ghosh. I am passionate about utilizing technology to create efficient and compelling C++ code.",
+  "avatar": "https://avatars.githubusercontent.com/u/122629070?v=4",
+  "portfolio": "https://github.com/Arijit-017",
+  "skills": ["DSA", "HTML", "CSS", "Javascript", "React.js", "Node.js", "SQL"],
+  "social": {
+    "GitHub": "https://github.com/Arijit-017",
+    "Twitter": "https://twitter.com/arijitgh017",
+    "LinkedIn": "https://www.linkedin.com/in/arijitghosh017"
+  }
+},
+{
+  "name": "Akanksha Mishra",
+  "location": "Delhi, India",
+  "bio": "Software Engineer",
+  "avatar": "https://github.com/akanksha0812.png",
+  "portfolio": "https://github.com/akanksha0812",
+  "skills": ["NestJS", "Typescript", "NodeJS", "ReactJS", "SQL", "NestJS", "API", "Git"],
+  "social": {
+    "GitHub": "https://github.com/akanksha0812",
+    "Twitter": "https://x.com/Akanksh13529302",
+    "LinkedIn": "https://www.linkedin.com/in/akanksha-mishra-845a1321a/"
+  }
+}
+]

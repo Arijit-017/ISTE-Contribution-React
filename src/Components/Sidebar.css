@@ -1,0 +1,79 @@
+.Sidebar {
+    position: fixed;
+    left: 0;
+    top: 75px;
+    width: 25%;
+    height: calc(100vh - 75px);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-sizing: border-box;
+    border-right: 1px solid #777777;
+    font-family: cursive;
+    background-color: #ffffff;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    box-shadow: #cccccc 1px 1px 1px 1px;
+    border-radius: 5px;
+}
+
+.imageMain {
+    margin-top: 10px;
+    height: 200px;
+    width: 270px;
+    border-radius: 5px;
+}
+
+.image p {
+    text-align: center;
+    font-size: 12px;
+    padding: 5px 0;
+}
+
+.about {
+    margin: 5px 0px;
+}
+
+.aboutHead {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.aboutBody {
+    margin: 5px;
+    font-size: 12px;
+    text-align: justify;
+}
+
+.social {
+    margin: 5px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.links {
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 5px 0;
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.links:hover {
+    background-color: #0056b3;
+}
