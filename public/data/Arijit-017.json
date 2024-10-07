@@ -23,6 +23,17 @@
     "Twitter": "",
     "LinkedIn": "https://www.linkedin.com/in/shubhojit-saha-3974a9275/"
   }
+},
+{
+  "name": "Riya Singh",
+  "location": "Haldia, West Bengal, India",
+  "bio": "Hello, my name is Riya Singh. I am passionate about utilizing technology to create efficient and compelling C++ code.",
+  "portfolio": "https://github.com/riyastar5678",
+  "skills": ["DSA", "HTML", "CSS", "C++","PYTHON"],
+  "social": {
+    "GitHub": "https://github.com/riyastar5678",
+    "LinkedIn": "https://www.linkedin.com/in/riya-singh-25a18a24a/"
+  }
 }
 
 ]
