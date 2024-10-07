@@ -12,16 +12,17 @@
   }
 },
 {
-  "name": "Akanksha Mishra",
-  "location": "Delhi, India",
-  "bio": "Software Engineer",
-  "avatar": "https://github.com/akanksha0812.png",
-  "portfolio": "https://github.com/akanksha0812",
-  "skills": ["NestJS", "Typescript", "NodeJS", "ReactJS", "SQL", "NestJS", "API", "Git"],
+  "name": "Shubhojit Saha",
+  "location": "Haldia, West Bengal, India",
+  "bio": "My self Shubhojit Saha , I am a Full Stack Java Devloper with good Problem solving Skill's .",
+  "avatar": "https://avatars.githubusercontent.com/u/139947793?v=4&size=64",
+  "portfolio": "https://github.com/Shubhojit123",
+  "skills": ["Java", "HTML", "CSS", "Tailwind CSS ","Javascript", "React.js", "Node.js", "Express js " , "Mongo DB" , "SQL","Spring Boot ","AWS"],
   "social": {
-    "GitHub": "https://github.com/akanksha0812",
-    "Twitter": "https://x.com/Akanksh13529302",
-    "LinkedIn": "https://www.linkedin.com/in/akanksha-mishra-845a1321a/"
+    "GitHub": "https://github.com/Shubhojit123",
+    "Twitter": "",
+    "LinkedIn": "https://www.linkedin.com/in/shubhojit-saha-3974a9275/"
   }
 }
+
 ]
