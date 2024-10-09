@@ -12,6 +12,19 @@
   }
 },
 {
+  "name": "Ankit Kumar",
+  "location": "Bokaro, Jharkhand, India",
+  "bio": "Hello! I’m Ankit Kumar, passionate about problem-solving, with a strong foundation in Data Structures and Algorithms (DSA). I am currently exploring Machine Learning, Generative AI, and Spring Boot technologies for backend development, aiming to grow as a versatile developer in the tech world.",
+  "avatar": "https://avatars.githubusercontent.com/u/90066342?s=400&u=82fa22a6913b959fdb4a867c1ed2d9af8e866648&v=4",
+  "portfolio": "https://github.com/apsharma07",
+  "skills": ["DSA", "HTML", "CSS", "Javascript", "Python", "ML", "SQL","Java","C++","Tensorflow"],
+  "social": {
+    "GitHub": "https://github.com/apsharma07",
+    "Twitter": "https://x.com/an_kit_kr_07",
+    "LinkedIn": "https://www.linkedin.com/in/ankitkumarsharma07"
+  }
+},
+{
   "name": "Shubhojit Saha",
   "location": "Haldia, West Bengal, India",
   "bio": "My self Shubhojit Saha , I am a Full Stack Java Devloper with good Problem solving Skill's .",
@@ -49,16 +62,29 @@
   }
 },
 {
-  "name": "Ankit Kumar",
-  "location": "Bokaro, Jharkhand, India",
-  "bio": "Hello! I’m Ankit Kumar. I have a strong foundation in Data Structures and Algorithms (DSA) and am currently exploring Machine Learning and Spring Boot. I’m passionate about problem-solving and excited to grow as a versatile developer in the tech world.",
-  "avatar": "https://avatars.githubusercontent.com/u/90066342?s=400&u=82fa22a6913b959fdb4a867c1ed2d9af8e866648&v=4",
-  "portfolio": "https://github.com/apsharma07",
-  "skills": ["DSA", "HTML", "CSS", "Javascript", "Python", "ML", "SQL"],
+  "name": "Shubham Raj",
+  "location": "Aurangabad, Bihar, India",
+  "bio": "Hi, I'm Shubham, an aspiring web developer from India, currently pursuing my B.Tech at Haldia Institute of Technology. I'm passionate about building innovative, user-friendly web applications.",
+  "avatar": "https://avatars.githubusercontent.com/u/161105520?s=400&u=d87f7ed6d0052c743c908e680a480b7edaae2b44&v=4",
+  "portfolio": "https://shubhamraj01.vercel.app/",
+  "skills": ["DSA", "HTML", "CSS", "Javascript", "React.js", "TailwindCSS", "Node.js"],
   "social": {
-    "GitHub": "https://github.com/apsharma07",
-    "Twitter": "https://x.com/98c02d553fe94ec",
-    "LinkedIn": "https://www.linkedin.com/in/ankitkumarsharma07"
+    "GitHub": "https://github.com/Shubham-1068",
+    "Twitter": "https://x.com/ShubhamRaj69561",
+    "LinkedIn": "https://www.linkedin.com/in/shubham-raj-13567a308/"
+  }
+}
+,
+{
+  "name": "Riju Kumari",
+  "location": "Motihari, Bihar, India",
+  "bio": "Hello! I’m Riju Kumari. Tech Enthusiast, Java Learner Passionate about coding, problem-solving, and continuous learning",
+  "avatar": " https://avatars.githubusercontent.com/u/166269290?v=4",
+  "portfolio": "https://github.com/RijuPandey",
+  "skills": ["DSA", "HTML", "CSS", "Javascript","Java","C"],
+  "social": {
+    "GitHub": "https://github.com/RijuPandey",
+    "LinkedIn": "https://www.linkedin.com/in/riju-kumari-a6ba072a6/"
   }
 }
 
