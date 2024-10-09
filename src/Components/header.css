@@ -60,32 +60,6 @@ header {
 .nav div:hover::after {
     background: #777777;
 }
-.search {
-    background-color: #ffffff;
-    display: flex;
-    align-items: center;
-    border: 1px solid #777777;
-    padding: 5px;
-    border-radius: 25px;
-    width: 300px;
-}
-
-.search input {
-    border: none;
-    outline: none;
-    padding: 5px;
-    width: 100%;
-    border-radius: 25px;
-}
-
-.search button {
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 0 10px;
-    outline: none;
-    border-radius: 25px;
-}
 
 .toggle {
     cursor: pointer;
