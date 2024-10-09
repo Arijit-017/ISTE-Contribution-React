@@ -74,5 +74,18 @@
     "LinkedIn": "https://www.linkedin.com/in/shubham-raj-13567a308/"
   }
 }
+,
+{
+  "name": "Riju Kumari",
+  "location": "Motihari, Bihar, India",
+  "bio": "Hello! I’m Riju Kumari. Tech Enthusiast, Java Learner Passionate about coding, problem-solving, and continuous learning",
+  "avatar": " https://avatars.githubusercontent.com/u/166269290?v=4",
+  "portfolio": "https://github.com/RijuPandey",
+  "skills": ["DSA", "HTML", "CSS", "Javascript","Java","C"],
+  "social": {
+    "GitHub": "https://github.com/RijuPandey",
+    "LinkedIn": "https://www.linkedin.com/in/riju-kumari-a6ba072a6/"
+  }
+}
 
 ]
