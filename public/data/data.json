@@ -60,6 +60,19 @@
     "Twitter": "https://x.com/98c02d553fe94ec",
     "LinkedIn": "https://www.linkedin.com/in/ankitkumarsharma07"
   }
+},
+{
+  "name": "Shubham Raj",
+  "location": "Aurangabad, Bihar, India",
+  "bio": "Hi, I'm Shubham, an aspiring web developer from India, currently pursuing my B.Tech at Haldia Institute of Technology. I'm passionate about building innovative, user-friendly web applications.",
+  "avatar": "https://avatars.githubusercontent.com/u/161105520?s=400&u=d87f7ed6d0052c743c908e680a480b7edaae2b44&v=4",
+  "portfolio": "https://shubhamraj01.vercel.app/",
+  "skills": ["DSA", "HTML", "CSS", "Javascript", "React.js", "TailwindCSS", "Node.js"],
+  "social": {
+    "GitHub": "https://github.com/Shubham-1068",
+    "Twitter": "https://x.com/ShubhamRaj69561",
+    "LinkedIn": "https://www.linkedin.com/in/shubham-raj-13567a308/"
+  }
 }
 
 ]
