@@ -12,6 +12,19 @@
   }
 },
 {
+  "name": "Ankit Kumar",
+  "location": "Bokaro, Jharkhand, India",
+  "bio": "Hello! I’m Ankit Kumar, passionate about problem-solving, with a strong foundation in Data Structures and Algorithms (DSA). I am currently exploring Machine Learning, Generative AI, and Spring Boot technologies for backend development, aiming to grow as a versatile developer in the tech world.",
+  "avatar": "https://avatars.githubusercontent.com/u/90066342?s=400&u=82fa22a6913b959fdb4a867c1ed2d9af8e866648&v=4",
+  "portfolio": "https://github.com/apsharma07",
+  "skills": ["DSA", "HTML", "CSS", "Javascript", "Python", "ML", "SQL","Java","C++","Tensorflow"],
+  "social": {
+    "GitHub": "https://github.com/apsharma07",
+    "Twitter": "https://x.com/an_kit_kr_07",
+    "LinkedIn": "https://www.linkedin.com/in/ankitkumarsharma07"
+  }
+}
+{
   "name": "Shubhojit Saha",
   "location": "Haldia, West Bengal, India",
   "bio": "My self Shubhojit Saha , I am a Full Stack Java Devloper with good Problem solving Skill's .",
@@ -46,19 +59,6 @@
     "GitHub": "https://github.com/anuska2772",
     "LinkedIn": "https://www.linkedin.com/in/anuska-chatterjee-8320a2255/",
     "Twitter":"https://x.com/Anuska2772"
-  }
-},
-{
-  "name": "Ankit Kumar",
-  "location": "Bokaro, Jharkhand, India",
-  "bio": "Hello! I’m Ankit Kumar. I have a strong foundation in Data Structures and Algorithms (DSA) and am currently exploring Machine Learning and Spring Boot. I’m passionate about problem-solving and excited to grow as a versatile developer in the tech world.",
-  "avatar": "https://avatars.githubusercontent.com/u/90066342?s=400&u=82fa22a6913b959fdb4a867c1ed2d9af8e866648&v=4",
-  "portfolio": "https://github.com/apsharma07",
-  "skills": ["DSA", "HTML", "CSS", "Javascript", "Python", "ML", "SQL"],
-  "social": {
-    "GitHub": "https://github.com/apsharma07",
-    "Twitter": "https://x.com/98c02d553fe94ec",
-    "LinkedIn": "https://www.linkedin.com/in/ankitkumarsharma07"
   }
 },
 {
