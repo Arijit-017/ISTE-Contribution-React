@@ -5,7 +5,13 @@ import Sidebar from './Components/Sidebar';
 import Main from './Components/Main';
 
 function App() {
-  const [userData, setUserData] = useState(null);
+  const [userData, setUserData] = useState([]);
+  const [searchTerm, setSearchTerm] = useState("");
+  
+  const filteredUserData =  userData.filter((user) => {
+    return user?.name.toLowerCase().includes(searchTerm.toLowerCase()) || user.social?.GitHub.split("https://github.com/")[1].toLowerCase().includes(searchTerm.toLowerCase());
+  });
+  
 
   useEffect(() => {
     const fetchData = async () => {
@@ -23,9 +29,9 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
+      <Header onSubmit={setSearchTerm} />
       <Sidebar />
-      <Main userData={userData} />
+      <Main userData={filteredUserData} />
     </div>
   );
 }

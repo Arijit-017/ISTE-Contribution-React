@@ -1,10 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMagnifyingGlass, faMoon } from "@fortawesome/free-solid-svg-icons";
+import { faMoon } from "@fortawesome/free-solid-svg-icons";
 import "./header.css";
+import Search from "./Search.js";
 
-const Header = () => {
+const Header = ({onSubmit}) => {
     function loadWebsite(){
         const url = "https://hitiste.vercel.app/";
         window.open(url, "_blank");
@@ -23,12 +24,7 @@ const Header = () => {
         <div className="txt">About</div>
         <div className="txt" onClick={loadWebsite}>Website</div>
       </div>
-      <div className="search">
-        <input type="text" />
-        <button type="submit">
-          <FontAwesomeIcon icon={faMagnifyingGlass} />
-        </button>
-      </div>
+      <Search onSubmit={onSubmit} />
       <div className="toggle">
         <FontAwesomeIcon icon={faMoon} />
       </div>
