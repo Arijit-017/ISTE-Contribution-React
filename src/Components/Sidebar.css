@@ -10,7 +10,7 @@
     box-sizing: border-box;
     border-right: 1px solid #777777;
     font-family: cursive;
-    background-color: #ffffff;
+    background-color: #E6E6FA;
     overflow-y: scroll;
     scrollbar-width: none;
 }
@@ -21,6 +21,7 @@
     align-items: center;
     justify-content: center;
     padding: 2px;
+    background: #ffffff;
     box-shadow: #cccccc 1px 1px 1px 1px;
     border-radius: 5px;
 }
@@ -33,6 +34,7 @@
 }
 
 .image p {
+    font-weight: 700;
     text-align: center;
     font-size: 12px;
     padding: 5px 0;

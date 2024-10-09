@@ -10,7 +10,7 @@ function App() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('/data/Arijit-017.json');
+        const response = await fetch('/data/data.json');
         const data = await response.json();
         setUserData(data);
       } catch (error) {
