@@ -13,7 +13,7 @@ function Search({onSubmit}) {
 
   return (
     <form className="search" onSubmit={handleSubmit}>
-      <label htmlFor="search-input" className="visually-hidden">Search users</label>
+      <label htmlFor="search-input" className="visually-hidden" autocomplete="off">Search users</label>
       <input type="text" name="search" id="search-input" placeholder="Search users..."/>
       <button type="submit" aria-label="Search">
         <FontAwesomeIcon icon={faMagnifyingGlass} aria-hidden="true" />
