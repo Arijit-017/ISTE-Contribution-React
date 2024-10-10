@@ -1,3 +1,4 @@
+
 .Sidebar {
     position: fixed;
     left: 0;
@@ -13,9 +14,9 @@
     background-color: #E6E6FA;
     overflow-y: scroll;
     scrollbar-width: none;
-}
-
-.image {
+  }
+  
+  .image {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,58 +25,90 @@
     background: #ffffff;
     box-shadow: #cccccc 1px 1px 1px 1px;
     border-radius: 5px;
-}
-
-.imageMain {
+  }
+  
+  .imageMain {
     margin-top: 10px;
     height: 200px;
     width: 270px;
     border-radius: 5px;
-}
-
-.image p {
+  }
+  
+  .image p {
     font-weight: 700;
     text-align: center;
     font-size: 12px;
     padding: 5px 0;
-}
-
-.about {
+  }
+  
+  .about {
     margin: 5px 0px;
-}
-
-.aboutHead {
+  }
+  
+  .aboutHead {
     font-size: 20px;
     margin: 10px;
-}
-
-.aboutBody {
+  }
+  
+  .aboutBody {
     margin: 5px;
     font-size: 12px;
     text-align: justify;
-}
-
-.social {
+  }
+  
+  .social {
     margin: 5px 0;
     display: flex;
     flex-direction: column;
     gap: 10px;
     justify-content: center;
-}
-
-.links {
+  }
+  
+  
+  .links {
     padding: 10px;
     border: none;
     border-radius: 25px;
     cursor: pointer;
     margin: 5px 0;
     width: 100%;
-    background-color: #007bff;
+    background-color: #007bff; 
     color: white;
     font-weight: bold;
     transition: background-color 0.3s ease;
-}
-
-.links:hover {
-    background-color: #0056b3;
-}
+  }
+  
+  .links:hover {
+    background-color: #0056b3; 
+  }
+  
+  /* Dark Mode Styles */
+  body.dark-mode .Sidebar {
+    background-color: #2e2e2e;
+    border-right: 1px solid #444444;
+  }
+  
+  body.dark-mode .image {
+    background-color: #444444;
+    box-shadow: #333333 1px 1px 1px 1px;
+  }
+  
+  body.dark-mode .imageMain {
+    border: 2px solid #666666;
+  }
+  
+  body.dark-mode .image p,
+  body.dark-mode .aboutHead,
+  body.dark-mode .aboutBody {
+    color: #dddddd;
+  }
+  
+  body.dark-mode .links {
+    background-color: #007bff; 
+    color: white;
+  }
+  
+  body.dark-mode .links:hover {
+    background-color: #0056b3; 
+  }
+  

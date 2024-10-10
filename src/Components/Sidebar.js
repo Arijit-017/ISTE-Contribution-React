@@ -1,19 +1,46 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Sidebar.css";
 
 const Sidebar = () => {
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
+  // Load dark mode preference from localStorage on initial load
+  useEffect(() => {
+    const savedTheme = localStorage.getItem("darkMode");
+    if (savedTheme === "enabled") {
+      document.body.classList.add("dark-mode");
+      setIsDarkMode(true);
+    }
+  }, []);
+
+  // Function to toggle dark mode
+  const toggleDarkMode = () => {
+    const bodyClass = document.body.classList;
+    if (isDarkMode) {
+      bodyClass.remove("dark-mode");
+      localStorage.setItem("darkMode", "disabled");
+    } else {
+      bodyClass.add("dark-mode");
+      localStorage.setItem("darkMode", "enabled");
+    }
+    setIsDarkMode(!isDarkMode);
+  };
+
   function gitLoader() {
     const url = "https://github.com/ISTE-HIT";
     window.open(url, "_blank");
   }
+
   function linkLoader() {
     const url = "https://www.linkedin.com/company/iste-hit-sc/";
     window.open(url, "_blank");
   }
+
   function instaLoader() {
     const url = "https://www.instagram.com/iste.hit.sc/";
     window.open(url, "_blank");
   }
+
   return (
     <div className="Sidebar">
       <div className="image">
@@ -49,6 +76,7 @@ const Sidebar = () => {
           Instagram
         </button>
       </div>
+      
     </div>
   );
 };
