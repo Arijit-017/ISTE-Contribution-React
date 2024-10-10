@@ -5,7 +5,7 @@ import Card from "./Card";
 function Main({ userData }) {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
-  // Load dark mode preference from localStorage on initial load
+  // Load dark mode preference from localStorage 
   useEffect(() => {
     const savedTheme = localStorage.getItem("darkMode");
     if (savedTheme === "enabled") {

@@ -13,7 +13,7 @@ const Sidebar = () => {
     }
   }, []);
 
-  // Function to toggle dark mode
+  // Function to toggle between dark and light mode
   const toggleDarkMode = () => {
     const bodyClass = document.body.classList;
     if (isDarkMode) {

@@ -8,7 +8,7 @@ import Search from "./Search.js";
 const Header = ({ onSubmit }) => {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
-  
+  // Storing in local storage
   useEffect(() => {
     const savedTheme = localStorage.getItem("darkMode");
     if (savedTheme === "enabled") {
@@ -17,7 +17,7 @@ const Header = ({ onSubmit }) => {
     }
   }, []);
 
-  // Function to toggle dark mode
+  //Function to toggle dark mode 
   const toggleDarkMode = () => {
     const bodyClass = document.body.classList;
     if (isDarkMode) {

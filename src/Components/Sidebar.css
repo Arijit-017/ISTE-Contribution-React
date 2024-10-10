@@ -82,7 +82,7 @@
     background-color: #0056b3; 
   }
   
-  /* Dark Mode Styles */
+  /* Dark mode */
   body.dark-mode .Sidebar {
     background-color: #2e2e2e;
     border-right: 1px solid #444444;

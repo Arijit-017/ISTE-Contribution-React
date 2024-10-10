@@ -142,7 +142,7 @@ header {
     justify-content: center;
 }
 
-/* Dark Mode Styles */
+/* dark mode*/
 body.dark-mode {
     background-color: #333333;
     color: #ffffff;

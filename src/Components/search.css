@@ -28,7 +28,7 @@
   border-radius: 25px;
 }
 
-/* Dark Mode Styles */
+/* Dark mode */
 body.dark-mode .search {
   background-color: #121212;
   border: 1px solid #bbbbbb;

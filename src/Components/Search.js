@@ -15,7 +15,7 @@ function Search({ onSubmit }) {
     }
   }, []);
 
-  // Toggle between dark and light modes
+  // Function to toggle between dark and light mode
   const toggleDarkMode = () => {
     setIsDarkMode(!isDarkMode);
     if (!isDarkMode) {
