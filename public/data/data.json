@@ -87,5 +87,17 @@
     "LinkedIn": "https://www.linkedin.com/in/riju-kumari-a6ba072a6/"
   }
 }
-
+,{
+  "name": "Ayan Roy",
+  "location": "Bankura West Bengal,722205",
+  "bio": "1st year Btech Student",
+  "avatar": "Link to your GitHub avatar",
+  "portfolio": "Link to your GitHub profile",
+  "skills": ["skill 1", "skill 2", "skill 3", "..."],
+  "social": {
+    "GitHub": "https://github.com/user_name",
+    "Twitter": "https://x.com/your_twitter_handle",
+    "LinkedIn": "https://www.linkedin.com/in/username"
+  }
+}
 ]
