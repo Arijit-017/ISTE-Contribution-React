@@ -100,4 +100,18 @@
     "LinkedIn": "https://www.linkedin.com/in/username"
   }
 }
+,
+{
+  "name": "Abhishek Kumar",
+  "location": "Ranchi , Jharkhand , 834003",
+  "bio": "Hi i am Abhishek 1st year Btech Student passionate about Development and a Tech Freak",
+  "avatar": "Link to your GitHub avatar",
+  "portfolio": "Link to your GitHub profile",
+  "skills": ["HTML", "CSS", "Node.js", "Mongo DB", "Express js " , ],
+  "social": {
+    "GitHub": "https://github.com/misanthropic-codes",
+    "Twitter": "https://x.com/misanthropic_12",
+    "LinkedIn": "https://www.linkedin.com/in/abhishek-codes/"
+  }
+}
 ]
