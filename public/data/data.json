@@ -99,5 +99,18 @@
     "Twitter": "https://x.com/your_twitter_handle",
     "LinkedIn": "https://www.linkedin.com/in/username"
   }
+},
+{
+  "name": "Pavan Narendra",
+  "location": "Guntur, Andhra Pradesh, India",
+  "bio": "Hello, my name is Pavan Narendra. I am an open source contributor and passionate about contributing to open source projects. I am currently working as a fullstack developer. I am always looking for opportunities to learn and grow.",
+  "avatar": "https://avatars.githubusercontent.com/u/84829899?s=400&v=4",
+  "portfolio": "pa1narendra.github.io",
+  "skills": ["React.js", "Tailwind CSS ", "TypeScript", "Javascript", "Java", "DSA", "PostgresSQL","C","C++","Linux"],
+  "social": {
+    "GitHub": "https://github.com/pa1narendra",
+    "Twitter": "https://x.com/pa1narendra",
+    "LinkedIn": "https://www.linkedin.com/in/pa1narendra"
+  }
 }
 ]
