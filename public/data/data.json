@@ -89,15 +89,15 @@
 }
 ,{
   "name": "Ayan Roy",
-  "location": "Bankura West Bengal,722205",
-  "bio": "1st year Btech Student",
-  "avatar": "Link to your GitHub avatar",
-  "portfolio": "Link to your GitHub profile",
-  "skills": ["skill 1", "skill 2", "skill 3", "..."],
+  "location": "Bagajal,Bankura,West Bengal,722205",
+  "bio": "Aspiring Software Developer Skills: C, C++, JavaScript, HTML, CSS Interests: Web Development, Artificial Intelligence & Machine Learning",
+  "avatar": "https://avatars.githubusercontent.com/u/171527969?s=400&u=882b3b1e4584552aadb7538639804710f7ad0828&v=4",
+  "portfolio": "https://github.com/im-AyanRoy/",
+  "skills": ["HTML", "CSS", "JAVA", "C++","C","Currently Learning JS"],
   "social": {
-    "GitHub": "https://github.com/user_name",
-    "Twitter": "https://x.com/your_twitter_handle",
-    "LinkedIn": "https://www.linkedin.com/in/username"
+    "GitHub": "https://github.com/im-AyanRoy/",
+    "Twitter": "https://x.com/X_AyanRoy",
+    "LinkedIn": "https://www.linkedin.com/in/ayanroy03/"
   }
 },
 {
