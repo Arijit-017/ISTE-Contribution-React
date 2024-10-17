@@ -139,3 +139,21 @@ body.dark-mode .social-item a {
 body.dark-mode .social-item a:hover {
   color: #007bff;
 }
+
+/* for hiding scrollbar */
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+html {
+  scrollbar-width: none;
+}
+
+body {
+  overflow: -moz-scrollbars-none;
+}
+
+body {
+  overflow: auto;
+}
