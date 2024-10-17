@@ -32,7 +32,7 @@ function Main({ userData }) {
   }
 
   return (
-    <div className="Main">
+    <div className="sticky left-[25%] w-[75%] flex flex-wrap justify-center items-center gap-5 py-5 bg-[#acace6]">
       
       {userData.map((user, index) => (
         <Card key={index} data={user} />

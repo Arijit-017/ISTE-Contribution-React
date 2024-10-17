@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #acace6;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
