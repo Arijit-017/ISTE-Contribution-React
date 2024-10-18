@@ -2,30 +2,6 @@ import React, { useEffect, useState } from "react";
 import "./Sidebar.css";
 
 const Sidebar = () => {
-  const [isDarkMode, setIsDarkMode] = useState(false);
-
-  // Load dark mode preference from localStorage on initial load
-  useEffect(() => {
-    const savedTheme = localStorage.getItem("darkMode");
-    if (savedTheme === "enabled") {
-      document.body.classList.add("dark-mode");
-      setIsDarkMode(true);
-    }
-  }, []);
-
-  // Function to toggle between dark and light mode
-  const toggleDarkMode = () => {
-    const bodyClass = document.body.classList;
-    if (isDarkMode) {
-      bodyClass.remove("dark-mode");
-      localStorage.setItem("darkMode", "disabled");
-    } else {
-      bodyClass.add("dark-mode");
-      localStorage.setItem("darkMode", "enabled");
-    }
-    setIsDarkMode(!isDarkMode);
-  };
-
   const openLink = (url) => {
     window.open(url, "_blank");
   };
@@ -64,13 +40,6 @@ const Sidebar = () => {
         <button className="links" onClick={() => openLink("https://www.instagram.com/iste.hit.sc/")}>
           Instagram
         </button>
-      </div>
-      <div className="toggle-container">
-        <label className="toggle-label">
-          Dark Mode
-          <input type="checkbox" checked={isDarkMode} onChange={toggleDarkMode} />
-          <span className="toggle-slider"></span>
-        </label>
       </div>
     </div>
   );
