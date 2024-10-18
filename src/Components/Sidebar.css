@@ -1,18 +1,18 @@
 .Sidebar {
   position: relative;
   left: 0;
-  top: 0px;
+  top: 0;
   width: 25%;
   height: auto;
   display: flex;
   flex-direction: column;
   padding: 10px;
   box-sizing: border-box;
-  border-right: 0px;
+  border-right: 0;
   font-family: cursive;
   background-color: #E6E6FA;
   overflow-y: auto;
-  scrollbar-width: none;
+  scrollbar-width: none; /* For Firefox */
 }
 
 .image {
@@ -20,17 +20,19 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 2px;
+  padding: 10px; /* Increased padding for better spacing */
   background: #ffffff;
-  box-shadow: #cccccc 1px 1px 1px 1px;
-  border-radius: 5px;
+  box-shadow: #cccccc 1px 1px 5px; /* Slightly larger shadow */
+  border-radius: 8px; /* Slightly more rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition */
 }
 
 .imageMain {
   margin-top: 10px;
   height: 200px;
-  width: 270px;
-  border-radius: 5px;
+  width: 100%; /* Responsive width */
+  max-width: 270px; /* Limit max width */
+  border-radius: 8px; /* More rounded corners */
 }
 
 .image p {
@@ -41,7 +43,7 @@
 }
 
 .about {
-  margin: 5px 0px;
+  margin: 5px 0;
 }
 
 .aboutHead {
@@ -51,7 +53,7 @@
 
 .aboutBody {
   margin: 5px;
-  font-size: 12px;
+  font-size: 14px; /* Increased font size for readability */
   text-align: justify;
 }
 
@@ -63,7 +65,6 @@
   justify-content: center;
 }
 
-
 .links {
   padding: 10px;
   border: none;
@@ -74,14 +75,15 @@
   background-color: #007bff;
   color: white;
   font-weight: bold;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Added transform transition */
 }
 
 .links:hover {
   background-color: #0056b3;
+  transform: scale(1.05); /* Slightly grow on hover */
 }
 
-/* Dark mode */
+/* Dark mode styles */
 body.dark-mode .Sidebar {
   background-color: #2e2e2e;
   border-right: 1px solid #444444;
@@ -89,7 +91,7 @@ body.dark-mode .Sidebar {
 
 body.dark-mode .image {
   background-color: #444444;
-  box-shadow: #333333 1px 1px 1px 1px;
+  box-shadow: #333333 1px 1px 5px;
 }
 
 body.dark-mode .imageMain {
@@ -109,4 +111,28 @@ body.dark-mode .links {
 
 body.dark-mode .links:hover {
   background-color: #0056b3;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .Sidebar {
+    width: 100%; /* Full width on small screens */
+    padding: 5px; /* Reduced padding */
+  }
+
+  .imageMain {
+    height: 150px; /* Smaller image height on mobile */
+  }
+
+  .aboutHead {
+    font-size: 18px; /* Adjust font size for smaller screens */
+  }
+
+  .aboutBody {
+    font-size: 12px; /* Adjust font size for smaller screens */
+  }
+
+  .links {
+    font-size: 14px; /* Adjust button font size for mobile */
+  }
 }

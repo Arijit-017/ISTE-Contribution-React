@@ -26,20 +26,9 @@ const Sidebar = () => {
     setIsDarkMode(!isDarkMode);
   };
 
-  function gitLoader() {
-    const url = "https://github.com/ISTE-HIT";
+  const openLink = (url) => {
     window.open(url, "_blank");
-  }
-
-  function linkLoader() {
-    const url = "https://www.linkedin.com/company/iste-hit-sc/";
-    window.open(url, "_blank");
-  }
-
-  function instaLoader() {
-    const url = "https://www.instagram.com/iste.hit.sc/";
-    window.open(url, "_blank");
-  }
+  };
 
   return (
     <div className="Sidebar">
@@ -63,21 +52,26 @@ const Sidebar = () => {
           tools and knowledge needed to excel in the digital age. Our platform
           encourages engagement in research, workshops, and collaborative
           projects that advance technology and education.
-          </p>
-          
+        </p>
       </div>
       <div className="social">
-        <button className="links" onClick={gitLoader}>
+        <button className="links" onClick={() => openLink("https://github.com/ISTE-HIT")}>
           Github
         </button>
-        <button className="links" onClick={linkLoader}>
+        <button className="links" onClick={() => openLink("https://www.linkedin.com/company/iste-hit-sc/")}>
           LinkedIn
         </button>
-        <button className="links" onClick={instaLoader}>
+        <button className="links" onClick={() => openLink("https://www.instagram.com/iste.hit.sc/")}>
           Instagram
         </button>
       </div>
-      
+      <div className="toggle-container">
+        <label className="toggle-label">
+          Dark Mode
+          <input type="checkbox" checked={isDarkMode} onChange={toggleDarkMode} />
+          <span className="toggle-slider"></span>
+        </label>
+      </div>
     </div>
   );
 };
