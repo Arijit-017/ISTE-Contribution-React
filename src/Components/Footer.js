@@ -51,14 +51,13 @@ function Footer() {
 
 
           <hr></hr>
-          <div className="sb_footer-below">
             <div className="sb_footer-copyright">
               <p>
                 @2024 ISTE. All right reserved.
               </p>
             </div>
 
-          </div>
+          
         </div>
       </div>
     </div>

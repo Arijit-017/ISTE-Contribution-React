@@ -11,7 +11,7 @@
   border-right: 0px;
   font-family: cursive;
   background-color: #E6E6FA;
-  overflow-y: scroll;
+  overflow-y: auto;
   scrollbar-width: none;
 }
 

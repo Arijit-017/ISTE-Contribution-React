@@ -35,7 +35,7 @@
 .Sidebar {
   position: relative; /* Remove fixed positioning */
   width: 25%; /* Sidebar width */
-  height: auto; /* Automatically adjusts height */
+  height: 100vh; /* Automatically adjusts height */
   display: flex;
   flex-direction: column;
   padding: 10px;
