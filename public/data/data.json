@@ -140,5 +140,18 @@
     "Twitter": "https://x.com/gyanshankar1708",
     "LinkedIn": "https://www.linkedin.com/in/gyanshankar-pd-singh-9786a5307/"
   }
+},
+{
+  "name": "Shiwangi",
+  "location": "Patna, Bihar, India",
+  "bio": "Hi, my name is Shiwangi. Currently I am pursuing my B.Tech at Haldia Institute of Technology. I am intrested in open source contribution.",
+  "avatar": "https://avatars.githubusercontent.com/u/160913232?v=4",
+  "portfolio": "",
+  "skills": ["DSA", "Java", "HTML", "CSS", "Javascript"],
+  "social": {
+    "GitHub": "https://github.com/Shiwangi3003",
+    "Twitter": "https://x.com/Shiwangi3003",
+    "LinkedIn": "https://www.linkedin.com/in/shiwangi-91a3042a2/"
+  }
 }
 ]
