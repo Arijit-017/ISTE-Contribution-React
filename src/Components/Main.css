@@ -174,5 +174,9 @@ body.dark-mode .social-item a:hover {
   .Main {
     width: 100%; /* Full width on small screens */
     padding: 5px; /* Reduced padding */
+    padding-bottom: 20px;
+  }
+  .card{
+    width: 350px;
   }
 }
