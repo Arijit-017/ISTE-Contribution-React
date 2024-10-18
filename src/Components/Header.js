@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from "react";
 import ReactDOM from "react-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
+import { faMoon, faSun, faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import "./header.css";
 import Search from "./Search.js";
 
 const Header = ({ onSubmit }) => {
   const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false); // State to control menu visibility
 
   // Storing in local storage
   useEffect(() => {
@@ -17,7 +18,7 @@ const Header = ({ onSubmit }) => {
     }
   }, []);
 
-  //Function to toggle dark mode 
+  // Function to toggle dark mode
   const toggleDarkMode = () => {
     const bodyClass = document.body.classList;
     if (isDarkMode) {
@@ -42,19 +43,32 @@ const Header = ({ onSubmit }) => {
     window.open(url, "_blank");
   }
 
+  // Function to toggle the hamburger menu
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <header>
       <div className="logo">
         <img src="/iste.png" alt="ISTE Logo" className="imageLogo" />
       </div>
-      <div className="nav">
+
+      <div className={`nav ${isMenuOpen ? "open" : ""}`}> 
+        {/* Adding 'open' class to display the menu on small screens */}
         <div className="txt" onClick={joinLoader}>Join</div>
         <div className="txt">About</div>
         <div className="txt" onClick={loadWebsite}>Website</div>
       </div>
+
       <Search onSubmit={onSubmit} />
+
       <div className="toggle" onClick={toggleDarkMode}>
         <FontAwesomeIcon icon={isDarkMode ? faSun : faMoon} />
+      </div>
+
+      <div className="hamburger" onClick={toggleMenu}>
+        <FontAwesomeIcon icon={isMenuOpen ? faTimes : faBars} />
       </div>
     </header>
   );
