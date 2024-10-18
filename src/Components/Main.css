@@ -1,8 +1,8 @@
 .Main {
   font-family: cursive;
   position: sticky;
-  left: 0;
-  width: 100%;
+  left: 25%;
+  width: 75%;
   overflow-y: auto;
   padding: 10px;
   box-sizing: border-box;
