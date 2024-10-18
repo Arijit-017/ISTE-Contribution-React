@@ -15,3 +15,40 @@
   white-space: nowrap;
   border-width: 0;
 }
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures the page takes full height */
+}
+
+.content-wrapper {
+  display: flex;
+  flex-grow: 1; /* Ensures Main and Sidebar fill available space */
+  align-items: stretch;
+}
+
+.Main {
+  width: 75%; /* Main content takes 75% of the width */
+  padding: 10px;
+}
+
+.Sidebar {
+  position: relative; /* Remove fixed positioning */
+  width: 25%; /* Sidebar width */
+  height: 100vh; /* Automatically adjusts height */
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  box-sizing: border-box;
+  border-right: 1px solid #777777;
+  font-family: cursive;
+  background-color: #E6E6FA;
+  overflow-y: auto;
+}
+
+.Footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 10px;
+  border-top: 1px solid #cccccc;
+}
