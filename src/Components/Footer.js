@@ -42,7 +42,7 @@ function Footer() {
                 </a>
               </p>
               <p>
-                <a href="hhttps://github.com/ISTE-HIT" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/ISTE-HIT" target="_blank" rel="noopener noreferrer">
                   <img src="github.webp" alt="GitHub" />
                 </a>
               </p>
