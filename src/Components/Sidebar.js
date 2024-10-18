@@ -63,7 +63,8 @@ const Sidebar = () => {
           tools and knowledge needed to excel in the digital age. Our platform
           encourages engagement in research, workshops, and collaborative
           projects that advance technology and education.
-        </p>
+          </p>
+          
       </div>
       <div className="social">
         <button className="links" onClick={gitLoader}>
