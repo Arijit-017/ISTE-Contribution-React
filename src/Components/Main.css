@@ -169,3 +169,10 @@ body.dark-mode .social-links {
 body.dark-mode .social-item a:hover {
   color: #007bff;
 }
+
+@media (max-width: 768px) {
+  .Main {
+    width: 100%; /* Full width on small screens */
+    padding: 5px; /* Reduced padding */
+  }
+}

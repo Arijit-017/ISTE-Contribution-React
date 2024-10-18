@@ -116,6 +116,7 @@ body.dark-mode .links:hover {
 /* Responsive Styles */
 @media (max-width: 768px) {
   .Sidebar {
+    display: none;
     width: 100%; /* Full width on small screens */
     padding: 5px; /* Reduced padding */
   }

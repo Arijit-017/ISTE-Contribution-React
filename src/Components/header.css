@@ -86,16 +86,21 @@ body.dark-mode .nav div:hover::after {
 }
 
 body.dark-mode .toggle {
+    border: 2px solid #ffffff;
     color: #ffffff;
 }
 
 /* Toggle Dark Mode Button */
 .toggle {
     cursor: pointer;
-    padding-left: 10px;
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 2px solid #000000;
+    border-radius: 30px;
 }
 
 /* Hamburger menu styles */
@@ -131,7 +136,7 @@ body.dark-mode .toggle {
 
     .hamburger {
         display: block;
-        margin-left: auto;
+        margin-left: 10px;
     }
 
     .logo {

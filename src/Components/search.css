@@ -42,3 +42,9 @@ body.dark-mode .search input {
 body.dark-mode .search button {
   color: #ffffff;
 }
+
+@media (max-width: 768px) {
+  .search {
+    width: 200px;
+  }
+}
