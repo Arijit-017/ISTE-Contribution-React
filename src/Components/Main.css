@@ -173,8 +173,7 @@ body.dark-mode .social-item a:hover {
 @media (max-width: 768px) {
   .Main {
     width: 100%; /* Full width on small screens */
-    padding: 5px; /* Reduced padding */
-    padding-bottom: 20px;
+    padding: 25px; /* Reduced padding */
   }
   .card{
     width: 350px;

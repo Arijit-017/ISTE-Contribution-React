@@ -3,7 +3,8 @@
 }
 
 .footer {
-  background-color: #2d2d32;
+  border-top:2px solid #666666 ;
+  background-color: #121212;
 }
 
 .sb_footer {
@@ -19,7 +20,6 @@
   flex-wrap: wrap;
   width: 100%;
   text-align: left;
-  margin-bottom: 2rem;
 }
 
 .sb_footer-links_div {
@@ -97,12 +97,15 @@ hr {
 
 
 .sb_footer-copyright p {
+  width: 100%;
   font-size: 13px;
   line-height: 15px;
   color: rgb(237, 222, 222);
   font-weight: 100;
   text-align: center;
-  margin-top: 5px;;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  border-top:2px solid #666666 ;
 }
 
 @media screen and (max-width: 850px) {
@@ -147,5 +150,14 @@ hr {
     font-size: 27px;
     line-height: 38px;
 
+  }
+}
+
+@media (max-width: 768px) {
+  .section_padding {
+    padding: 1rem 1rem;
+  }
+  .footer {
+    background-color: #121212;
   }
 }

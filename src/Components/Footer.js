@@ -56,19 +56,14 @@ function contactus(){
                 </a>
               </p>
             </div>
-          </div>
-
-
-          <hr></hr>
-            <div className="sb_footer-copyright">
-              <p>
-                @2024 ISTE. All right reserved.
-              </p>
-            </div>
-
-          
+          </div>            
         </div>
       </div>
+      <div className="sb_footer-copyright">
+        <p>
+          @2024 ISTE. All right reserved.
+        </p>
+        </div>
     </div>
   )
 }
