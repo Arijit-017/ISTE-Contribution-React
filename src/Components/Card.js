@@ -1,6 +1,8 @@
 import React from "react";
 import { Github, Linkedin, Twitter } from "lucide-react";
 
+
+
 function Card({ data }) {
   return (
     <div className="card">
