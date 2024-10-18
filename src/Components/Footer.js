@@ -11,20 +11,20 @@ function Footer() {
         <div className="sb_footer-links">
           <div className="sb_footer-links_div">
             <h4>ISTE HIT SC</h4>
-            <a >
+            <a onClick="website()">
               <p>The ISTE Student Chapter at Haldia Institute of Technology is your gateway to innovation in educational technology. Our platform encourages engagement in research, workshops, and collaborative projects that advance technology and education.</p>
             </a>
           </div>
 
           <div className="sb_footer-links_div">
             <h4>Useful Links</h4>
-            <a >
+            <a onClick="join()">
               <p>Join</p>
             </a>
             <a >
               <p>About</p>
             </a>
-            <a >
+            <a onClick="contactus()">
               <p>Contact Us</p>
             </a>
           </div>
@@ -66,3 +66,12 @@ function Footer() {
 
 export default Footer;
 
+function join(){
+  window.location.href="https://hitiste.vercel.app/join-membership";
+}
+function website(){
+  window.location.href="https://hitiste.vercel.app/";
+}
+function contactus(){
+  window.location.href="https://www.linkedin.com/company/iste-hit-sc/posts/?feedView=all";
+}
