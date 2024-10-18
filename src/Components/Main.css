@@ -7,8 +7,8 @@
   padding: 10px;
   box-sizing: border-box;
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  jjustify-content: space-evenly;
+  align-items: center;
   flex-wrap: wrap;
   gap: 20px;
   background-color: #acace6;
