@@ -1,4 +1,5 @@
 import React from "react";
+import { Github, Linkedin, Twitter } from "lucide-react";
 
 function Card({ data }) {
   return (
@@ -11,25 +12,25 @@ function Card({ data }) {
           <p className="location">{data.location}</p>
         </div>
 
+        <div className="social-links">
+          <a href={data.social.GitHub} target="_blank" className="social-item">
+            <Github size={20} color="white" />
+          </a>
+          <a href={data.social.LinkedIn} target="_blank" className="social-item">
+            <Linkedin size={20} color="white" />
+          </a>
+          <a href={data.social.Twitter} target="_blank" className="social-item">
+            <Twitter size={20} color="white" />
+          </a>
+        </div>
+
         <p className="bio">{data.bio}</p>
 
         <div className="two">
-          <h4>Skills:</h4>
           <ul className="skills">
             {data.skills.map((skill, index) => (
-              <li key={index} className="skill-item">{skill}</li>
-            ))}
-          </ul>
-        </div>
-
-        <div className="three">
-          <h4>Social Links:</h4>
-          <ul className="social-links">
-            {Object.entries(data.social).map(([platform, url]) => (
-              <li key={platform} className="social-item">
-                <a href={url} target="_blank" rel="noopener noreferrer">
-                  {platform}
-                </a>
+              <li key={index} className="skill-item">
+                {skill}
               </li>
             ))}
           </ul>
