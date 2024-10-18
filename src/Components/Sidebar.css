@@ -1,9 +1,9 @@
 .Sidebar {
-  position: relative;
+  position: sticky;
   left: 0;
   top: 0;
   width: 25%;
-  height: auto;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   padding: 10px;
