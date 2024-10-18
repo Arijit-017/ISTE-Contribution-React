@@ -2,44 +2,9 @@ import React, { useEffect, useState } from "react";
 import "./Sidebar.css";
 
 const Sidebar = () => {
-  const [isDarkMode, setIsDarkMode] = useState(false);
-
-  // Load dark mode preference from localStorage on initial load
-  useEffect(() => {
-    const savedTheme = localStorage.getItem("darkMode");
-    if (savedTheme === "enabled") {
-      document.body.classList.add("dark-mode");
-      setIsDarkMode(true);
-    }
-  }, []);
-
-  // Function to toggle between dark and light mode
-  const toggleDarkMode = () => {
-    const bodyClass = document.body.classList;
-    if (isDarkMode) {
-      bodyClass.remove("dark-mode");
-      localStorage.setItem("darkMode", "disabled");
-    } else {
-      bodyClass.add("dark-mode");
-      localStorage.setItem("darkMode", "enabled");
-    }
-    setIsDarkMode(!isDarkMode);
+  const openLink = (url) => {
+    window.open(url, "_blank");
   };
-
-  function gitLoader() {
-    const url = "https://github.com/ISTE-HIT";
-    window.open(url, "_blank");
-  }
-
-  function linkLoader() {
-    const url = "https://www.linkedin.com/company/iste-hit-sc/";
-    window.open(url, "_blank");
-  }
-
-  function instaLoader() {
-    const url = "https://www.instagram.com/iste.hit.sc/";
-    window.open(url, "_blank");
-  }
 
   return (
     <div className="Sidebar">
@@ -63,21 +28,19 @@ const Sidebar = () => {
           tools and knowledge needed to excel in the digital age. Our platform
           encourages engagement in research, workshops, and collaborative
           projects that advance technology and education.
-          </p>
-          
+        </p>
       </div>
       <div className="social">
-        <button className="links" onClick={gitLoader}>
+        <button className="links" onClick={() => openLink("https://github.com/ISTE-HIT")}>
           Github
         </button>
-        <button className="links" onClick={linkLoader}>
+        <button className="links" onClick={() => openLink("https://www.linkedin.com/company/iste-hit-sc/")}>
           LinkedIn
         </button>
-        <button className="links" onClick={instaLoader}>
+        <button className="links" onClick={() => openLink("https://www.instagram.com/iste.hit.sc/")}>
           Instagram
         </button>
       </div>
-      
     </div>
   );
 };
