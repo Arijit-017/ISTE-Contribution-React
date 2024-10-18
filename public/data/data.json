@@ -112,5 +112,18 @@
     "Twitter": "https://x.com/pa1narendra",
     "LinkedIn": "https://www.linkedin.com/in/pa1narendra"
   }
+},
+{
+  "name": "Gyanshankar pd Singh",
+  "location": "Khagaria, Bihar, India",
+  "bio": "Hello, my name is Gyanshankar Singh. I am curretntly pursuing in B.Tech at Haldia Institute of Technology.",
+  "avatar": "https://avatars.githubusercontent.com/u/155980409?v=4",
+  "portfolio": "https://github.com/gyanshankar1708",
+  "skills": ["HTML","CSS","JavaScript","Java","Python","C"],
+  "social": {
+    "GitHub": "https://github.com/gyanshankar1708",
+    "Twitter": "https://x.com/gyanshankar1708",
+    "LinkedIn": "https://www.linkedin.com/in/gyanshankar-pd-singh-9786a5307/"
+  }
 }
 ]
