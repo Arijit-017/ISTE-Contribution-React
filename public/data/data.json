@@ -100,6 +100,21 @@
     "LinkedIn": "https://www.linkedin.com/in/ayanroy03/"
   }
 },
+
+{
+  "name": "Abhishek Kumar",
+  "location": "Ranchi, Jharkhand , 834003",
+  "bio": "Aspiring MERN STACK developer: Equipped with all tech for full Stack development",
+  "avatar": "https://avatars.githubusercontent.com/u/172160291?s=400&u=d9a0d822d5790b399ed59c483ce2ebb1f9ab82d8&v=4",
+  "portfolio": "www.misanthropic.site",
+  "skills": ["HTML", "CSS", "Javascript", "MongoDB","React.js","Node.js"],
+  "social": {
+    "GitHub": "https://github.com/misanthropic-codes",
+    "Twitter": "https://x.com/misanthropic_12",
+    "LinkedIn": "https://www.linkedin.com/in/abhishek-codes/"
+  }
+},
+
 {
   "name": "Pavan Narendra",
   "location": "Guntur, Andhra Pradesh, India",
