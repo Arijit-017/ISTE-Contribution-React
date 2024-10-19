@@ -153,5 +153,17 @@
     "Twitter": "https://x.com/Shiwangi3003",
     "LinkedIn": "https://www.linkedin.com/in/shiwangi-91a3042a2/"
   }
+},
+{
+  "name": "Sattwik Dhara",
+  "location": "Kolkata, West Bengal, India",
+  "bio": "Hello, my name is Sattwik Dhara. I am passionate about embedded systems and game development, and I'm currently working on several exciting projects in these areas.",
+  "avatar": "https://avatars.githubusercontent.com/u/185048304?v=4",
+  "portfolio": "https://github.com/Sattwik-8",
+  "skills": ["HTML", "CSS", "Javascript", "C++","DSA", "Cicrcuits"],
+  "social": {
+    "GitHub": "https://github.com/Sattwik-8",
+    "LinkedIn": "www.linkedin.com/in/sattwik-dhara"
+  }
 }
 ]
