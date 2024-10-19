@@ -114,32 +114,6 @@
     "LinkedIn": "https://www.linkedin.com/in/abhishek-codes/"
   }
 },
-
-{
-  "name": "Pavan Narendra",
-  "location": "Guntur, Andhra Pradesh, India",
-  "bio": "Hello, my name is Pavan Narendra. I am an open source contributor and passionate about contributing to open source projects. I am currently working as a fullstack developer. I am always looking for opportunities to learn and grow.",
-  "avatar": "https://avatars.githubusercontent.com/u/84829899?s=400&v=4",
-  "portfolio": "pa1narendra.github.io",
-  "skills": ["React.js", "Tailwind CSS ", "TypeScript", "Javascript", "Java", "DSA", "PostgresSQL","C","C++","Linux"],
-  "social": {
-    "GitHub": "https://github.com/pa1narendra",
-    "Twitter": "https://x.com/pa1narendra",
-    "LinkedIn": "https://www.linkedin.com/in/pa1narendra"
-  }
-},
-  {
-  "name": "Sufyan Nadeem",
-  "location": "Patna, Bihar, India",
-  "bio": "Hello, my name is Sufyan Nadeem. I am just trying to code.",
-  "avatar": "https://avatars.githubusercontent.com/u/157401617?v=4",
-  "portfolio": "https://github.com/kycilius",
-  "skills": ["HTML", "CSS", "Javascript"],
-  "social": {
-    "GitHub": "https://github.com/kycilius",
-    "LinkedIn": "https://www.linkedin.com/in/sufyan-nadeem-k/"
-  }
-},
 {
   "name": "Gyanshankar pd Singh",
   "location": "Khagaria, Bihar, India",
@@ -164,6 +138,32 @@
     "GitHub": "https://github.com/Shiwangi3003",
     "Twitter": "https://x.com/Shiwangi3003",
     "LinkedIn": "https://www.linkedin.com/in/shiwangi-91a3042a2/"
+  }
+  },
+
+{
+  "name": "Pavan Narendra",
+  "location": "Guntur, Andhra Pradesh, India",
+  "bio": "Hello, my name is Pavan Narendra. I am an open source contributor and passionate about contributing to open source projects. I am currently working as a fullstack developer. I am always looking for opportunities to learn and grow.",
+  "avatar": "https://avatars.githubusercontent.com/u/84829899?s=400&v=4",
+  "portfolio": "pa1narendra.github.io",
+  "skills": ["React.js", "Tailwind CSS ", "TypeScript", "Javascript", "Java", "DSA", "PostgresSQL","C","C++","Linux"],
+  "social": {
+    "GitHub": "https://github.com/pa1narendra",
+    "Twitter": "https://x.com/pa1narendra",
+    "LinkedIn": "https://www.linkedin.com/in/pa1narendra"
+  }
+},
+{
+  "name": "Sufyan Nadeem",
+  "location": "Patna, Bihar, India",
+  "bio": "Hello, my name is Sufyan Nadeem. I am just trying to code.",
+  "avatar": "https://avatars.githubusercontent.com/u/157401617?v=4",
+  "portfolio": "https://github.com/kycilius",
+  "skills": ["HTML", "CSS", "Javascript"],
+  "social": {
+    "GitHub": "https://github.com/kycilius",
+    "LinkedIn": "https://www.linkedin.com/in/sufyan-nadeem-k/"
   }
 }
 ]
