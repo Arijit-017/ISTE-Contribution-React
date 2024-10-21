@@ -174,5 +174,17 @@
       "GitHub": "https://github.com/Sattwik-8",
       "LinkedIn": "www.linkedin.com/in/sattwik-dhara"
     }
+  },
+  {
+    "name": "Anish Pati",
+    "location": "Jhargram, West Bengal, India",
+    "bio": "Hlo everyone, I am passionate about VLSI Designing and cyber security, and I'm currently working on several exciting projects in these areas.",
+    "avatar": "",
+    "portfolio": "https://github.com/AnishPati",
+    "skills": ["HTML", "CSS", "Javascript", "Networking Fundamentals", "C++","DSA", "Python"],
+    "social": {
+      "GitHub": "https://github.com/AnishPati",
+      "LinkedIn": "https://www.linkedin.com/in/anish-pati-443150295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    }
   }
 ]
