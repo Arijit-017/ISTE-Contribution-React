@@ -174,5 +174,18 @@
       "GitHub": "https://github.com/Sattwik-8",
       "LinkedIn": "www.linkedin.com/in/sattwik-dhara"
     }
+  },
+  {
+    "name": "Simran Gupta",
+    "location": "Ranchi, Jharkhand, India",
+    "bio": "I'm Simran, with a keen interest in machine learning and a passion for contributing to open-source projects. I am constantly exploring new opportunities to apply innovative technologies and collaborate with global developer communities.",
+    "avatar": "https://avatars.githubusercontent.com/u/140389999?s=400&u=00de36841465d9f00ee906e61b42a84dda2d165f&v=4",
+    "portfolio": "",
+    "skills": ["DSA", "Python", "Java","HTML","CSS"],
+    "social": {
+      "GitHub": "https://github.com/Simrangupta185",
+      "Twitter": "https://x.com/Simran185gupta",
+      "LinkedIn": "https://www.linkedin.com/in/simran-gupta-1a5182334/"
+    }
   }
 ]
