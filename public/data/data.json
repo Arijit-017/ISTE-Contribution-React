@@ -140,14 +140,14 @@
   },
   {
     "name": "Pavan Narendra",
-    "location": "Bengaluru, Karnataka, India",
-    "bio": "I'm a software engineer looking for exciting opportunities and solving problems.",
+    "location": "Hyderabad, Telangana, India",
+    "bio": "I'm a software engineer actively contributing to open source projects and learning new technologies.",
     "avatar": "https://avatars.githubusercontent.com/u/58885264?v=4",
     "portfolio": "https://pa1narendra.github.io",
-    "skills": ["HTML", "CSS", "Javascript", "React.js"],
+    "skills": ["React.js", "Tailwind CSS", "Node.js", "MongoDB", "Express.js"],
     "social": {
       "GitHub": "https://github.com/pa1narendra",
-      "Twitter": "https://twitter.com/pava123",
+      "Twitter": "https://x.com/pa1narendra",
       "LinkedIn": "https://www.linkedin.com/in/pa1narendra/"
     }
   },
