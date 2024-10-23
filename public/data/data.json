@@ -188,5 +188,19 @@
       "Twitter": "https://x.com/Simran185gupta",
       "LinkedIn": "https://www.linkedin.com/in/simran-gupta-1a5182334/"
     }
+  },
+
+{
+  "name": "Devrup Chowdhury",
+  "location": "Magnolia Sports City , Barrackpore",
+  "bio": "I am a second year student in CSE and i have good command over HTML, CSS,JS, Node, React,EJS etc",
+  "avatar": "https://github.com/account",
+  "portfolio": "https://github.com/devrupchowdhury",
+  "skills": ["C++", "CSS", "JS", "HTML" , "Nodejs" , "SQL"],
+  "social": {
+    "GitHub": "https://github.com/devrupchowdhury",
+    "LinkedIn": "www.linkedin.com/in/devrup-chowdhury-264998202"
   }
+}
+
 ]
