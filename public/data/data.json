@@ -177,6 +177,18 @@
     }
   },
   {
+    "name": "Anish Pati",
+    "location": "Jhargram, West Bengal, India",
+    "bio": "Hlo everyone, I am passionate about VLSI Designing and cyber security.",
+    "avatar": "",
+    "portfolio": "https://github.com/AnishPati",
+    "skills": ["HTML", "CSS", "Javascript", "Networking Fundamentals", "C++","DSA", "Python"],
+    "social": {
+      "GitHub": "https://github.com/AnishPati",
+      "LinkedIn": "https://www.linkedin.com/in/anish-pati-443150295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    }
+},
+{
     "name": "Simran Gupta",
     "location": "Ranchi, Jharkhand, India",
     "bio": "I'm Simran, with a keen interest in machine learning and a passion for contributing to open-source projects. I am constantly exploring new opportunities to apply innovative technologies and collaborate with global developer communities.",
