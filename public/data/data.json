@@ -5,7 +5,15 @@
     "bio": "Hello, my name is Arijit Ghosh. I am passionate about utilizing technology to create efficient and compelling C++ code.",
     "avatar": "https://avatars.githubusercontent.com/u/122629070?v=4",
     "portfolio": "https://github.com/Arijit-017",
-    "skills": ["DSA", "HTML", "CSS", "Javascript", "React.js", "Node.js", "SQL"],
+    "skills": [
+      "DSA",
+      "HTML",
+      "CSS",
+      "Javascript",
+      "React.js",
+      "Node.js",
+      "SQL"
+    ],
     "social": {
       "GitHub": "https://github.com/Arijit-017",
       "Twitter": "https://twitter.com/arijitgh017",
@@ -18,7 +26,18 @@
     "bio": "Hello! I’m Ankit Kumar, passionate about problem-solving, with a strong foundation in Data Structures and Algorithms (DSA). I am currently exploring Machine Learning, Generative AI, and Spring Boot technologies for backend development, aiming to grow as a versatile developer in the tech world.",
     "avatar": "https://avatars.githubusercontent.com/u/90066342?s=400&u=82fa22a6913b959fdb4a867c1ed2d9af8e866648&v=4",
     "portfolio": "https://github.com/apsharma07",
-    "skills": ["DSA", "HTML", "CSS", "Javascript", "Python", "ML", "SQL", "Java", "C++", "Tensorflow"],
+    "skills": [
+      "DSA",
+      "HTML",
+      "CSS",
+      "Javascript",
+      "Python",
+      "ML",
+      "SQL",
+      "Java",
+      "C++",
+      "Tensorflow"
+    ],
     "social": {
       "GitHub": "https://github.com/apsharma07",
       "Twitter": "https://x.com/an_kit_kr_07",
@@ -31,7 +50,20 @@
     "bio": "My self Shubhojit Saha, I am a Full Stack Java Developer with good Problem solving Skill's.",
     "avatar": "https://avatars.githubusercontent.com/u/139947793?v=4&size=64",
     "portfolio": "https://github.com/Shubhojit123",
-    "skills": ["Java", "HTML", "CSS", "Tailwind CSS", "Javascript", "React.js", "Node.js", "Express.js", "MongoDB", "SQL", "Spring Boot", "AWS"],
+    "skills": [
+      "Java",
+      "HTML",
+      "CSS",
+      "Tailwind CSS",
+      "Javascript",
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "SQL",
+      "Spring Boot",
+      "AWS"
+    ],
     "social": {
       "GitHub": "https://github.com/Shubhojit123",
       "LinkedIn": "https://www.linkedin.com/in/shubhojit-saha-3974a9275/"
@@ -43,7 +75,13 @@
     "bio": "Hello, my name is Riya Singh. I am passionate about utilizing technology to create efficient and compelling C++ code.",
     "avatar": "https://avatars.githubusercontent.com/u/134100787?v=4&size=64",
     "portfolio": "https://github.com/riyastar5678",
-    "skills": ["DSA", "HTML", "CSS", "C++", "PYTHON"],
+    "skills": [
+      "DSA",
+      "HTML",
+      "CSS",
+      "C++",
+      "PYTHON"
+    ],
     "social": {
       "GitHub": "https://github.com/riyastar5678",
       "LinkedIn": "https://www.linkedin.com/in/riya-singh-25a18a24a/"
@@ -55,7 +93,14 @@
     "bio": "I'm Anuska Chatterjee, a passionate Computer Science and Engineering student with a passion for coding, problem-solving in Java, C++, etc.",
     "avatar": "https://avatars.githubusercontent.com/u/144933964?v=4",
     "portfolio": "https://github.com/anuska2772",
-    "skills": ["DSA", "JAVA", "HTML", "CSS", "C++", "PYTHON"],
+    "skills": [
+      "DSA",
+      "JAVA",
+      "HTML",
+      "CSS",
+      "C++",
+      "PYTHON"
+    ],
     "social": {
       "GitHub": "https://github.com/anuska2772",
       "LinkedIn": "https://www.linkedin.com/in/anuska-chatterjee-8320a2255/",
@@ -68,7 +113,15 @@
     "bio": "Hi, I'm Shubham, an aspiring web developer from India, currently pursuing my B.Tech at Haldia Institute of Technology. I'm passionate about building innovative, user-friendly web applications.",
     "avatar": "https://avatars.githubusercontent.com/u/161105520?s=400&u=d87f7ed6d0052c743c908e680a480b7edaae2b44&v=4",
     "portfolio": "https://shubhamraj01.vercel.app/",
-    "skills": ["DSA", "HTML", "CSS", "Javascript", "React.js", "TailwindCSS", "Node.js"],
+    "skills": [
+      "DSA",
+      "HTML",
+      "CSS",
+      "Javascript",
+      "React.js",
+      "TailwindCSS",
+      "Node.js"
+    ],
     "social": {
       "GitHub": "https://github.com/Shubham-1068",
       "Twitter": "https://x.com/ShubhamRaj69561",
@@ -81,7 +134,14 @@
     "bio": "Hello! I’m Riju Kumari. Tech Enthusiast, Java Learner Passionate about coding, problem-solving, and continuous learning.",
     "avatar": "https://avatars.githubusercontent.com/u/166269290?v=4",
     "portfolio": "https://github.com/RijuPandey",
-    "skills": ["DSA", "HTML", "CSS", "Javascript", "Java", "C"],
+    "skills": [
+      "DSA",
+      "HTML",
+      "CSS",
+      "Javascript",
+      "Java",
+      "C"
+    ],
     "social": {
       "GitHub": "https://github.com/RijuPandey",
       "LinkedIn": "https://www.linkedin.com/in/riju-kumari-a6ba072a6/"
@@ -93,7 +153,14 @@
     "bio": "Aspiring Software Developer Skills: C, C++, JavaScript, HTML, CSS Interests: Web Development, Artificial Intelligence & Machine Learning.",
     "avatar": "https://avatars.githubusercontent.com/u/171527969?s=400&u=882b3b1e4584552aadb7538639804710f7ad0828&v=4",
     "portfolio": "https://github.com/im-AyanRoy/",
-    "skills": ["HTML", "CSS", "JAVA", "C++", "C", "Currently Learning JS"],
+    "skills": [
+      "HTML",
+      "CSS",
+      "JAVA",
+      "C++",
+      "C",
+      "Currently Learning JS"
+    ],
     "social": {
       "GitHub": "https://github.com/im-AyanRoy/",
       "Twitter": "https://x.com/X_AyanRoy",
@@ -106,7 +173,14 @@
     "bio": "Aspiring MERN STACK developer: Equipped with all tech for full Stack development.",
     "avatar": "https://avatars.githubusercontent.com/u/172160291?s=400&u=d9a0d822d5790b399ed59c483ce2ebb1f9ab82d8&v=4",
     "portfolio": "https://misanthropic.site",
-    "skills": ["HTML", "CSS", "Javascript", "MongoDB", "React.js", "Node.js"],
+    "skills": [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "MongoDB",
+      "React.js",
+      "Node.js"
+    ],
     "social": {
       "GitHub": "https://github.com/misanthropic-codes",
       "Twitter": "https://x.com/misanthropic_12",
@@ -119,7 +193,14 @@
     "bio": "Hello, my name is Gyanshankar Singh. I am currently pursuing B.Tech at Haldia Institute of Technology.",
     "avatar": "https://avatars.githubusercontent.com/u/155980409?v=4",
     "portfolio": "https://github.com/gyanshankar1708",
-    "skills": ["HTML", "CSS", "JavaScript", "Java", "Python", "C"],
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Java",
+      "Python",
+      "C"
+    ],
     "social": {
       "GitHub": "https://github.com/gyanshankar1708",
       "Twitter": "https://x.com/gyanshankar1708",
@@ -132,10 +213,17 @@
     "bio": "Hi, my name is Shiwangi. Currently, I am pursuing my B.Tech at Haldia Institute of Technology. I am interested in open source contribution.",
     "avatar": "https://avatars.githubusercontent.com/u/160913232?v=4",
     "portfolio": "",
-    "skills": ["HTML", "CSS", "JavaScript", "Java", "Python", "C"],
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Java",
+      "Python",
+      "C"
+    ],
     "social": {
       "GitHub": "https://github.com/Shiwangi3003",
-      "Twitter":"https://x.com/Shiwangi3003",
+      "Twitter": "https://x.com/Shiwangi3003",
       "LinkedIn": "https://www.linkedin.com/in/shiwangi-91a3042a2/"
     }
   },
@@ -145,7 +233,13 @@
     "bio": "I'm a software engineer actively contributing to open source projects and learning new technologies.",
     "avatar": "https://avatars.githubusercontent.com/u/58885264?v=4",
     "portfolio": "https://pa1narendra.github.io",
-    "skills": ["React.js", "Tailwind CSS", "Node.js", "MongoDB", "Express.js"],
+    "skills": [
+      "React.js",
+      "Tailwind CSS",
+      "Node.js",
+      "MongoDB",
+      "Express.js"
+    ],
     "social": {
       "GitHub": "https://github.com/pa1narendra",
       "Twitter": "https://x.com/pa1narendra",
@@ -158,7 +252,11 @@
     "bio": "Hello, my name is Sufyan Nadeem. I am just trying to code.",
     "avatar": "https://avatars.githubusercontent.com/u/157401617?v=4",
     "portfolio": "https://github.com/kycilius",
-    "skills": ["HTML", "CSS", "Javascript"],
+    "skills": [
+      "HTML",
+      "CSS",
+      "Javascript"
+    ],
     "social": {
       "GitHub": "https://github.com/kycilius",
       "LinkedIn": "https://www.linkedin.com/in/sufyan-nadeem-k/"
@@ -170,7 +268,14 @@
     "bio": "Hello, my name is Sattwik Dhara. I am passionate about embedded systems and game development, and I'm currently working on several exciting projects in these areas.",
     "avatar": "https://avatars.githubusercontent.com/u/185048304?v=4",
     "portfolio": "https://github.com/Sattwik-8",
-    "skills": ["HTML", "CSS", "Javascript", "C++","DSA", "Cicrcuits"],
+    "skills": [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "C++",
+      "DSA",
+      "Cicrcuits"
+    ],
     "social": {
       "GitHub": "https://github.com/Sattwik-8",
       "LinkedIn": "www.linkedin.com/in/sattwik-dhara"
@@ -194,11 +299,36 @@
     "bio": "I'm Simran, with a keen interest in machine learning and a passion for contributing to open-source projects. I am constantly exploring new opportunities to apply innovative technologies and collaborate with global developer communities.",
     "avatar": "https://avatars.githubusercontent.com/u/140389999?s=400&u=00de36841465d9f00ee906e61b42a84dda2d165f&v=4",
     "portfolio": "",
-    "skills": ["DSA", "Python", "Java","HTML","CSS"],
+    "skills": [
+      "DSA",
+      "Python",
+      "Java",
+      "HTML",
+      "CSS"
+    ],
     "social": {
       "GitHub": "https://github.com/Simrangupta185",
       "Twitter": "https://x.com/Simran185gupta",
       "LinkedIn": "https://www.linkedin.com/in/simran-gupta-1a5182334/"
+    }
+  },
+  {
+    "name": "Arya Das",
+    "location": "Haldia, West Bengal, India",
+    "bio": "I'm Arya Das, with a keen interest in machine learning and a passion for contributing to open-source projects. I am constantly exploring new opportunities to apply innovative technologies and collaborate with global developer communities.",
+    "avatar": "",
+    "portfolio": "",
+    "skills": [
+      "DSA",
+      "Python",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "social": {
+      "GitHub": "https://github.com/arya-dev2005",
+      "Twitter": "https://x.com/AryaDas09796399",
+      "LinkedIn": "https://www.linkedin.com/in/arya-das-4435a8222"
     }
   }
 ]
