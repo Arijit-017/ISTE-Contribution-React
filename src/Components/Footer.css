@@ -39,6 +39,8 @@ a {
 .socialmedia {
   display: flex;
   flex-direction: row;
+  justify-content: start;
+  gap: 2px;
 }
 
 .socialmedia img {
