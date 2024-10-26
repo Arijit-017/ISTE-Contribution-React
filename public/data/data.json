@@ -153,5 +153,18 @@
     "Twitter": "https://x.com/Shiwangi3003",
     "LinkedIn": "https://www.linkedin.com/in/shiwangi-91a3042a2/"
   }
+},
+{
+  "name": "Jagannath Roy",
+  "location": "Kolkata, West Bengal, India",
+  "bio": "Hey, I am Jagannath Roy, 2nd Year Undergraduate student of Information Technology at Haldia Institute of Technology. I hold a deep passion for problem solving and contributing to the society using modern technologies.",
+  "avatar": "https://avatars.githubusercontent.com/Jagannathroy",
+  "portfolio": "https://github.com/Jagannathroy",
+  "skills": ["React.js", "Node.js", "Tailwind CSS ", "Java", "HTML", "CSS","C"],
+  "social": {
+    "GitHub": "https://github.com/Jagannathroy",
+    "Twitter": "https://x.com/star_jagannath",
+    "LinkedIn": "https://www.linkedin.com/in/jagannath-roy-a596b7278/"
+  }
 }
 ]
