@@ -51,10 +51,10 @@ const Header = ({ onSubmit }) => {
   return (
     <header>
       <div className="logo">
-        <img src="/iste.png" alt="ISTE Logo" className="imageLogo" />
+        <a href="https://hitiste.vercel.app/"><img src="/iste.png" alt="ISTE Logo" className="imageLogo" /></a>
       </div>
 
-      <div className={`nav ${isMenuOpen ? "open" : ""}`}> 
+      <div className={`nav ${isMenuOpen ? "open" : ""}`}>
         {/* Adding 'open' class to display the menu on small screens */}
         <div className="txt" onClick={joinLoader}>Join</div>
         <div className="txt">About</div>
