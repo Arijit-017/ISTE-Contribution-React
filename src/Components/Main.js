@@ -4,6 +4,8 @@ import Card from "./Card";
 
 function Main({ userData }) {
   const [isDarkMode, setIsDarkMode] = useState(false);
+  const [visibleItems, setVisibleItems] = useState(14);
+  const itemsPerLoad = 14;
 
   // Load dark mode preference from localStorage 
   useEffect(() => {
@@ -27,16 +29,31 @@ function Main({ userData }) {
     setIsDarkMode(!isDarkMode);
   };
 
+  // Function to load more items
+  const loadMore = () => {
+    setVisibleItems(prevVisible => prevVisible + itemsPerLoad);
+  };
+
   if (!userData || userData.length === 0) {
     return <div>Loading...</div>;
   }
 
+  const displayedData = userData.slice(0, visibleItems);
+  const hasMore = userData.length > visibleItems;
+
   return (
     <div className="Main">
-      
-      {userData.map((user, index) => (
+      {displayedData.map((user, index) => (
         <Card key={index} data={user} />
       ))}
+      
+      {hasMore && (
+        <div className="view-more-container">
+          <button onClick={loadMore} className="view-more-button">
+            View More
+          </button>
+        </div>
+      )}
     </div>
   );
 }
