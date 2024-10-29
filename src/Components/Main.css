@@ -221,3 +221,44 @@ body {
       font-size: 14px;
   }
 }
+
+.view-more-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.view-more-button {
+  background-color: #acace6;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.view-more-button:hover {
+  background-color: #8a8ac9;
+  transform: scale(1.05);
+}
+
+/* Dark mode styles for the button */
+body.dark-mode .view-more-button {
+  background-color: #007bff;
+}
+
+body.dark-mode .view-more-button:hover {
+  background-color: #0056b3;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .view-more-button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
