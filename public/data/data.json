@@ -358,5 +358,19 @@
     "LinkedIn": "https://www.linkedin.com/in/jagannath-roy-a596b7278/"
   }
 }
+,
+{
+  "name": "Bhaskar Nandi",
+  "location": "chaibasa, jharkhand, India",
+  "bio": "Hey, I am Bhaskar Nandi, 2nd Year Undergraduate student of Computer Science and engineering with specialization in cybersecurity at Haldia Institute of Technology.I am passionate in learning new tech stacks , currently i'm learning mern stack.",
+  "avatar": " ",
+  "portfolio": "https://github.com/CodeXBhaskar",
+  "skills": ["Javascript", "Node.js", "C++", "Java", "HTML", "CSS","C","DSA"],
+  "social": {
+    "GitHub": "https://github.com/CodeXBhaskar",
+    "Twitter": " ",
+    "LinkedIn": "https://www.linkedin.com/in/bhaskar-nandi-885417277?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+  }
+}
 ]
 
